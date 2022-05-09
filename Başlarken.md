@@ -38,6 +38,8 @@ yazıyoruz ve kurulumları gerçekleştiriyoruz.[^1][^2]
 
 ## 3. Wi-Fi Adapter Kurulumu
 
+Kurulum sonrası Wi-Fi çalışmazsa aşağıdaki adımları uyguluyoruz.
+
 Terminale
 
 ```
