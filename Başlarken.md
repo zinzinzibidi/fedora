@@ -63,8 +63,8 @@ yazıyoruz ve Wi-Fi Adapter'ı kuruyoruz.[^4]
 
 ## 4. Dock Sabitleme
 <ol>
-  <li>GNOME Shell Extentions eklentisi Edge'e ya da Firefox'a kuruyoruz./li>
-  <li>Dash to Dock eklentisini google'layıp kuruyoruz./li>
+  <li>GNOME Shell Extentions eklentisi Edge'e ya da Firefox'a kuruyoruz.</li>
+  <li>Dash to Dock eklentisini google'layıp kuruyoruz.</li>
   <li>Extensions'ı açıyoruz ve ayarlamaları yapıyoruz.</li>
 </ol>
 
