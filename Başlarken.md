@@ -1,5 +1,8 @@
-Fedora 35 ve sonrası için hazırlanmıştır.
+# Fedora'ya Başlarken
 
+Bu md dosyası Fedora işletim sistemine yeni başlayanlara destek olmak amacıyla hazırlanmıştır. Fedora 35 ve sonrası için uygundur.
+
+<br>
 
 ## 1. İşletim Sistemi Güncelleme
 Terminal'e aşağıdaki kodları yazıyoruz ve sırasıyla çalıştırıyoruz.
