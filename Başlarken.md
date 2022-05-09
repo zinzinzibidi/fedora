@@ -16,7 +16,7 @@ sudo dnf upgrade --refresh -y
 
 Terminale kodları copy + paste yaparken CTRL + V'ye izin vermemekte. Bu sebeple CTRL + SHIFT + V yapabilirsiniz.
 
-update güncelleme dosyalarını indiriyor. upgrade ise kuruyor.
+update güncelleme dosyalarını indirmek, upgrade ise kurmak için kullanılmaktadır.
 
 <br>
 
