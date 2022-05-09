@@ -1,6 +1,8 @@
+Fedora 35 ve sonrası için hazırlanmıştır.
 
-## İşletim Sistemi Güncelleme
-Terminale aşağıdaki kodları yaz.
+
+## 1. İşletim Sistemi Güncelleme
+Terminal'e aşağıdaki kodları yazıyoruz ve sırasıyla çalıştırıyoruz.
 
 ```
 sudo dnf update --refresh -y
@@ -9,10 +11,15 @@ sudo dnf upgrade --refresh -y
 
 Terminale kodları copy + paste yaparken CTRL + V'ye izin vermemekte. Bu sebeple CTRL + SHIFT + V yapabilirsiniz.
 
+update güncelleme dosyalarını indiriyor. upgrade ise kuruyor.
 
+<br>
 
-## RPMFusion ve Flatpack Kurulumu
-Terminale
+## 2. RPMFusion ve Flatpack Kurulumu
+
+Fedora'nın yazılım kütüphanesi yetersizdir. Bu iki dağıtım Microsoft Edge, Visual Studio Code, PyCharm gibi tonlarca programı Software'e ekler. Bu şekilde kod yazmadan birçok yazılımı kurabiliriz.
+
+Terminale sırasıyla
 
 ```
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
@@ -21,18 +28,29 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-yaz. [Kaynak](https://flatpak.org/setup/Fedora)[Kaynak2](https://rpmfusion.org/Configuration)
+yazıyoruz ve kurulumları gerçekleştiriyoruz.[^1][^2]
 
-Software (Yazılımdan) VS Code, PyCharm, Obsidian, Microsoft Edge gibi birçok yazılımı kurmaya yarıyor.
+[^1]:[FlatPak](https://flatpak.org/setup/Fedora)
 
-##### Wi-Fi Adapter Kulumu
-Wi-Fi Adapter RPMFusion ve Flatpack'ten sonra kurulmazsa aşağıdakileri uygula.
+[^2]:[RPMFusion](https://rpmfusion.org/Configuration)
 
-Terminal'e **inxi -Nxx** yaz.
+<br>
+
+## 3. Wi-Fi Adapter Kurulumu
+
+Wi-Fi Adapter (Wireless Driver), RPMFusion ve Flatpack'ten sonra kurulmazsa aşağıdakileri uygulayabilirsiniz.[^3]
+
+Terminal'e
+```
+lspci | grep -i net
+``` 
+yazıyoruz ve Wi-Fi Adapter'ı kuruyoruz.[^4]
+
 [Kaynak](https://ask.fedoraproject.org/t/fedora-33-does-not-recognise-wifi-of-laptop/11399/2)
-(Kurulum için kablolu bağlantı gerekli.)
 
-Çalışmazsa kaynak'taki kodları dene.
+[^3]:Kurulum sırasında kablolu bağlantı gereklidir. 
+
+[^4]:Çalışmazsa kaynak'taki kodları deneyebilirsiniz.
 
 ##### Dock Sabitleme
 GNOME Shell Extentions eklentisi Edge'e ya da Firefox'a kur.
