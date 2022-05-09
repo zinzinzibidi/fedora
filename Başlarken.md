@@ -125,7 +125,29 @@ kurulmalıdır. (Firefox için [tıklayınız](https://addons.mozilla.org/tr/fir
 
 <br>
 
-## 9. Topluluk Desteği
+## 9. Harici Yazılım Kurulumu
+
+Fedora'da harici yazılım kurmak için rpm uzantılı dosyalar kullanılmaktadır.
+
+Harici yazılımları kurmak için
+
+```
+sudo dnf install yazilim_adi.rpm
+```
+
+Kaldırmak için
+
+```
+sudo dnf remove yazilim_adi.rpm
+```
+
+komutlarını kullanıyoruz.
+
+rpm paketleme kurulumları son çare olarak kurulmalıdır. Bu paketleri kaldırmak kimi zaman çok zordur.
+
+<br>
+
+## 10. Topluluk Desteği
 
 Bu belgedeki birçok konu Reddit topluluğu sayesinde hazırlandı. Sorun yaşadığınız her konuda [Fedora Subredditi](https://www.reddit.com/r/Fedora/)'ni kullanabilirsiniz. Çok sağlam bir community'si var.
 
