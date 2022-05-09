@@ -5,7 +5,7 @@ Bu md dosyası Fedora işletim sistemine yeni başlayanlara destek olmak amacıy
 <br>
 
 ## 1. İşletim Sistemi Güncelleme
-Terminal'e aşağıdaki kodları yazıyoruz ve sırasıyla çalıştırıyoruz.
+Terminal'e aşağıdaki kodları yazıyoruz ve sırasıyla çalıştırıyoruz. (Kodun üzerine gelip sağındaki simge ile tek tıkla kopyalayabilirsiniz.)
 
 ```
 sudo dnf update --refresh -y
