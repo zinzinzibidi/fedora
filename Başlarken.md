@@ -75,7 +75,7 @@ yazıyoruz ve Wi-Fi Adapter'ı kuruyoruz.[^4]
 
 ## 5. Gnome Tweaks Kurulumu ve 1.75 Ekran Ölçeklendirme
 
-4K çözünürlükte ekran ölçeklendirme gerekebilir.
+4K çözünürlük kullanıyorsanız ekran ölçeklendirme gerekebilir.
 
 Software'den Gnome Tweaks'i kuruyoruz.
 
