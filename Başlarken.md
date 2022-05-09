@@ -82,12 +82,16 @@ Fonts > Scaling Factor'den ayarları 1.75 yapabilirsiniz.
 
 Ya da
 
-Oturum açılışında parola sorduğunda sağ alt köşedeki çark simgesine tıklayıp "GNOME on Wayland"i seçebilirsiniz. Display ayarlarına %150, %175 seçenekleri gelecektir. Fakat NVIDIA düzgün çalışmayabilir. Bazı uygulamaları iyi render'lamayablir ve bulanık gösterebilir.
+Oturum açılışında parola sorduğunda sağ alt köşedeki çark simgesine tıklayıp "GNOME on Wayland"i seçebilirsiniz. Display ayarlarına %150, %175 seçenekleri gelecektir. Fakat NVIDIA düzgün çalışmayabilir. Bazı uygulamaları iyi render'lamayabilir ve bulanık gösterebilir.
+
+Gnome Tweak ile koyu tema da kullanabilirsiniz.[^5]
+
+[^5]:Fedora 36 ile koyu tema özelliği gelecektir.
 
 <br>
 
 ## 6. Codec'ler
-Multimedya codec'leri için Terminal'e aşağıdaki kodları yazıyoruz.[^5]
+Multimedya codec'leri için Terminal'e aşağıdaki kodları yazıyoruz.[^6]
 
 ```
 sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
@@ -96,7 +100,7 @@ sudo dnf install lame\* --exclude=lame-devel
 
 sudo dnf group upgrade --with-optional Multimedia
 ```
-[^5]:[Kaynak](https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/)
+[^6]:[Kaynak](https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/)
 
 <br>
 
