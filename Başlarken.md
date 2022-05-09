@@ -114,6 +114,6 @@ Files'ın sol konsolunun en altında bulunan +Other Locations'a tıklıyoruz. Wi
 ## 8. Masaüstünde Nesne Kullanma
 
 Masaüstünde klasör, belge kullanabilmek için [Desktop Icons NG (DING) ](https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/) eklentisi kurulabilir. Bu eklentiyi kurabilmek için daha önce [GNOME Shell Extensions](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep?hl=tr)
-kurulmalıdır. Firefox için [tıklayınız](https://addons.mozilla.org/tr/firefox/addon/gnome-shell-integration/).
+kurulmalıdır. (Firefox için [tıklayınız](https://addons.mozilla.org/tr/firefox/addon/gnome-shell-integration/).)
 
 <br>
