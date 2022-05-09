@@ -143,7 +143,7 @@ sudo dnf remove yazilim_adi.rpm
 
 komutlarını kullanıyoruz.
 
-rpm paketleme kurulumları son çare olarak kurulmalıdır. Bu paketleri kaldırmak kimi zaman çok zordur.
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) rpm paketleme kurulumları son çare olarak kurulmalıdır. Bu paketleri kaldırmak kimi zaman çok zordur.
 
 <br>
 
