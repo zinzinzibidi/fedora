@@ -117,3 +117,9 @@ Masaüstünde klasör, belge kullanabilmek için [Desktop Icons NG (DING) ](http
 kurulmalıdır. (Firefox için [tıklayınız](https://addons.mozilla.org/tr/firefox/addon/gnome-shell-integration/).)
 
 <br>
+
+## 9. Topluluk Desteği
+
+Sorun yaşadığınız her konuda (Fedora Subredditi)[https://www.reddit.com/r/Fedora/]'ni kullanabilirsiniz. Çok sağlam bir community'si var. Bu belgedeki birçok konu Reddit topluluğu sayesinde hazırlandı.
+
+<br>
