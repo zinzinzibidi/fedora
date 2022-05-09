@@ -9,6 +9,8 @@ Terminal'e aşağıdaki kodları yazıyoruz ve sırasıyla çalıştırıyoruz.
 
 ```
 sudo dnf update --refresh -y
+```
+```
 sudo dnf upgrade --refresh -y
 ```
 
@@ -26,8 +28,8 @@ Terminale sırasıyla
 
 ```
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-
-
+```
+```
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
