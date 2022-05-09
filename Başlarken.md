@@ -103,6 +103,6 @@ sudo dnf group upgrade --with-optional Multimedia
 ## 7. Windows Fontları Yükleme
 Windows'tan gelen bazı dosyalar, özellikle Word belgeleri, fontlar yüzünden düzgün gösterilmeyebilir. Bu sebeple Windows fontlarını kullanmalıyız.
 
-Files'ın sol konsolunun en altında bulunan +Other Locations'a tıklıyoruz. Windows > Fonts klasörü içindeki fontları kopyalıyoruz. Fedora'da gizli dosyaları gösteriyoruz ve Home klasörünün içinde .Font adlı yeni bir klasör oluşturup kopyaladığımız ontları buraya yapıştırıyoruz.
+Files'ın sol konsolunun en altında bulunan +Other Locations'a tıklıyoruz. Windows > Fonts klasörü içindeki fontları kopyalıyoruz. Fedora'da gizli dosyaları gösteriyoruz ve Home klasörünün içinde .Font adlı yeni bir klasör oluşturup kopyaladığımız fontları buraya yapıştırıyoruz.
 
 <br>
