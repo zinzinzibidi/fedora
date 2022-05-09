@@ -1,5 +1,5 @@
 
-##### İşletim Sistemi Güncelleme
+## İşletim Sistemi Güncelleme
 Terminale aşağıdaki kodları yaz.
 
 ```
@@ -7,9 +7,11 @@ sudo dnf update --refresh -y
 sudo dnf upgrade --refresh -y
 ```
 
-Terminale copy + paste yaparken CTRL + SHIFT + V yap. Direkt kodları yapıştırıyor.
+Terminale kodları copy + paste yaparken CTRL + V'ye izin vermemekte. Bu sebeple CTRL + SHIFT + V yapabilirsiniz.
 
-##### RPMFusion ve Flatpack Kurulumu
+
+
+## RPMFusion ve Flatpack Kurulumu
 Terminale
 
 ```
