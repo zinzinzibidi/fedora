@@ -38,6 +38,13 @@ yazıyoruz ve kurulumları gerçekleştiriyoruz.[^1][^2]
 
 ## 3. Wi-Fi Adapter Kurulumu
 
+Terminale
+
+```
+sudo reboot
+```
+yazın ve işletim sistemini tekrar başlatın. Settings'ten Wi-Fi ayarlarını kontrol edin.
+
 Wi-Fi Adapter (Wireless Driver), RPMFusion ve Flatpack'ten sonra kurulmazsa aşağıdakileri uygulayabilirsiniz.[^3]
 
 Terminal'e
@@ -46,18 +53,23 @@ lspci | grep -i net
 ``` 
 yazıyoruz ve Wi-Fi Adapter'ı kuruyoruz.[^4]
 
-[Kaynak](https://ask.fedoraproject.org/t/fedora-33-does-not-recognise-wifi-of-laptop/11399/2)
-
 [^3]:Kurulum sırasında kablolu bağlantı gereklidir. 
 
-[^4]:Çalışmazsa kaynak'taki kodları deneyebilirsiniz.
+[^4]:Çalışmazsa [şuradaki](https://ask.fedoraproject.org/t/fedora-33-does-not-recognise-wifi-of-laptop/11399/2) kodları deneyebilirsiniz.
 
-##### Dock Sabitleme
-GNOME Shell Extentions eklentisi Edge'e ya da Firefox'a kur.
-Dash to Dock eklentsini google'a ve kur.
-Extensions'u aç ve ayarlamaları yap.
-##### Gnome Tweaks Kurulumu ve 1.75 Ekran Ölçeklendirme
-Software'den Gnome Tweaks'i kur.
+<br>
+
+## 4. Dock Sabitleme
+<ol>
+  <li>GNOME Shell Extentions eklentisi Edge'e ya da Firefox'a kuruyoruz./li>
+  <li>Dash to Dock eklentisini google'layıp kuruyoruz./li>
+  <li>Extensions'ı açıyoruz ve ayarlamaları yapıyoruz.</li>
+</ol>
+
+<br>
+
+## 5. Gnome Tweaks Kurulumu ve 1.75 Ekran Ölçeklendirme
+Software'den Gnome Tweaks'i kuruyoruz.
 
 ![[Pasted image 20220508202917.png]]
 
