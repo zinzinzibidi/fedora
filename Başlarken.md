@@ -71,7 +71,7 @@ yazıyoruz ve Wi-Fi Adapter'ı kuruyoruz.[^4]
 ## 5. Gnome Tweaks Kurulumu ve 1.75 Ekran Ölçeklendirme
 Software'den Gnome Tweaks'i kuruyoruz.
 
-![[Pasted image 20220508202917.png]]
+![fedora](https://zinzinzibidi.com/img/fedora-scale.png)
 
 Fonts > Scaling Factor'den 1.75 yapabilirsin.
 
