@@ -69,19 +69,23 @@ yazıyoruz ve Wi-Fi Adapter'ı kuruyoruz.[^4]
 <br>
 
 ## 5. Gnome Tweaks Kurulumu ve 1.75 Ekran Ölçeklendirme
+
+4K çözünürlükte ekran ölçeklendirme gerekebilir.
+
 Software'den Gnome Tweaks'i kuruyoruz.
 
-![fedora](https://zinzinzibidi.com/img/fedora-scale.pngss)
+<img src="https://zinzinzibidi.com/img/fedora-scale.png" alt="fedora scale" style="width:480px"/>
 
-Fonts > Scaling Factor'den 1.75 yapabilirsin.
+Fonts > Scaling Factor'den ayarları 1.75 yapabilirsiniz.
 
 Ya da
 
-![[wayland.jpg]]
-Oturum açılışında parola sorduğunda sağ alt köşedeki çark simgesine tıklayıp "GNOME on Wayland"i seçebilirsin. Display ayarlarına %150, %175 seçenekleri gelecektir. Fakat NVIDIA düzgün çalışmayabilir. Bazı uygulamaları iyi render'lamıyor. Bulanık gösteriyor.
+Oturum açılışında parola sorduğunda sağ alt köşedeki çark simgesine tıklayıp "GNOME on Wayland"i seçebilirsiniz. Display ayarlarına %150, %175 seçenekleri gelecektir. Fakat NVIDIA düzgün çalışmayabilir. Bazı uygulamaları iyi render'lamayablir ve bulanık gösterebilir.
 
-##### Codec'ler
-Terminal'e aşağıdaki kodları yaz.
+<br>
+
+## 6. Codec'ler
+Multimedya codec'leri için Terminal'e aşağıdaki kodları yazıyoruz.[^5]
 
 ```
 sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
@@ -90,10 +94,13 @@ sudo dnf install lame\* --exclude=lame-devel
 
 sudo dnf group upgrade --with-optional Multimedia
 ```
-[Kaynak](https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/)
+[^5]:[Kaynak](https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/)
 
-##### Windows Fontları Yükleme
-Windows > Fonts klasörü içindeki fontları kopyala. Gizli dosyaları göster ve Home klasörünün içinde .Font adlı yeni bir klasör oluştur. Fontları buraya yükle.
+<br>
 
+## 7. Windows Fontları Yükleme
+Windows'tan gelen bazı dosyalar, özellikle Word belgeleri, fontlar yüzünden düzgün gösterilmeyebilir. Bu sebeple Windows fontlarını kullanmalıyız.
 
+Files'ın sol konsolunun en altında bulunan +Other Locations'a tıklıyoruz. Windows > Fonts klasörü içindeki fontları kopyalıyoruz. Fedora'da gizli dosyaları gösteriyoruz ve Home klasörünün içinde .Font adlı yeni bir klasör oluşturup kopyaladığımız ontları buraya yapıştırıyoruz.
 
+<br>
