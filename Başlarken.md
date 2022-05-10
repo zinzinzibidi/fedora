@@ -29,7 +29,9 @@ update güncelleme dosyalarını kontrol etmek, upgrade ise kurmak için kullan�
 
 ## 3. RPMFusion ve Flatpack Kurulumu
 
-Fedora'nın yazılım kütüphanesi yetersizdir. Bu iki dağıtım Microsoft Edge, Visual Studio Code, PyCharm gibi tonlarca programı Software'e ekler. Bu şekilde kod yazmadan birçok yazılımı kurabiliriz.
+Fedora'nın yazılım kütüphanesi yetersizdir. Bu iki dağıtım Microsoft Edge, Visual Studio Code, PyCharm gibi tonlarca programı Software'e ekler. Bu şekilde kod yazmadan birçok yazılımı kurabilirsiniz.
+
+Software, yazılımların kurulabildiği kütüphanedir. Winkey + Software ile erişebilirsiniz.
 
 Terminale sırasıyla
 
@@ -40,7 +42,7 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-yazıyoruz ve kurulumları gerçekleştiriyoruz.[^1][^2]
+yazabilir ve kurulumları gerçekleştirebilirsiniz.[^1][^2]
 
 [^1]:[FlatPak](https://flatpak.org/setup/Fedora)
 
@@ -50,34 +52,34 @@ yazıyoruz ve kurulumları gerçekleştiriyoruz.[^1][^2]
 
 ## 4. Wi-Fi Adapter Kurulumu
 
-Kurulum sonrası Wi-Fi çalışmazsa aşağıdaki adımları uyguluyoruz.
+Kurulum sonrası Wi-Fi çalışmazsa aşağıdaki adımları uygulayabilirsiniz.
 
 Terminale
 
 ```
 sudo reboot
 ```
-yazın ve işletim sistemini tekrar başlatın. Settings'ten Wi-Fi ayarlarını kontrol edin.
+yazılır ve işletim sistemini tekrar başlatılır. Settings'ten Wi-Fi ayarları kontrol edilir.
 
-Wi-Fi Adapter (Wireless Driver), RPMFusion ve Flatpack'ten sonra kurulmazsa aşağıdakileri uygulayabilirsiniz.[^3]
+Wi-Fi Adapter (Wireless Driver), RPMFusion ve Flatpack'ten sonra hala kurulu değilse aşağıdaki adımlar uygulanır.[^3]
 
 Terminal'e
 ```
 lspci | grep -i net
 ``` 
-yazıyoruz ve Wi-Fi Adapter'ı kuruyoruz.[^4]
+yazılır ve Wi-Fi Adapter kurulur.[^4]
 
 [^3]:Kurulum sırasında kablolu bağlantı gereklidir. 
 
-[^4]:Çalışmazsa [şuradaki](https://ask.fedoraproject.org/t/fedora-33-does-not-recognise-wifi-of-laptop/11399/2) kodları deneyebilirsiniz.
+[^4]:Çalışmazsa [şuradaki](https://ask.fedoraproject.org/t/fedora-33-does-not-recognise-wifi-of-laptop/11399/2) kodlar denenmelidir.
 
 <br>
 
 ## 5. Dock Sabitleme
 <ol>
-  <li>GNOME Shell Extentions eklentisi Edge'e ya da Firefox'a kuruyoruz.</li>
-  <li>Dash to Dock eklentisini google'layıp kuruyoruz.</li>
-  <li>Extensions'ı açıyoruz ve ayarlamaları yapıyoruz.</li>
+  <li>[GNOME Shell Extentions](https://addons.mozilla.org/tr/firefox/addon/gnome-shell-integration/) Edge'e ya da Firefox'a kurulur.</li>
+  <li>[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) eklenti kurulur.</li>
+  <li>Süper Key + Extensions ile Extensions açılır ve gerekli ayarlamalar yapılır.</li>
 </ol>
 
 <br>
@@ -200,7 +202,7 @@ Bazı videolar mp4 formatında olsa dahi codec eksikliği yüzünden Fedora'nın
 
 ## 13. Ekran Görüntüsü Alma
 
-Tam ekran görüntüsü almak için PrintScreen, belirli bir alanın ekran görüntüsünü için CTRL + SHIFT + PrintScreen tuş kombinasyonunu kullanabilirsiniz. Görüntüler Files > Pictures içerisine kaydedilmektedir. Dilerseniz Photoshop'un alternatifi olan GIMP ile görseller üzerinde çalışabilirsiniz.
+Tam ekran görüntüsü almak için PrintScreen, belirli bir alanın ekran görüntüsünü için SHIFT + PrintScreen tuş kombinasyonunu kullanabilirsiniz. Görüntüler Files > Pictures içerisine kaydedilmektedir. Dilerseniz Photoshop'un alternatifi olan GIMP ile görseller üzerinde çalışabilirsiniz.
 
 <br>
 
