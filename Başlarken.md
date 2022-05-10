@@ -16,7 +16,7 @@ sudo dnf upgrade --refresh -y
 
 Terminale kodları copy + paste yaparken CTRL + V'ye izin vermemekte. Bu sebeple CTRL + SHIFT + V yapabilirsiniz.
 
-update güncelleme dosyalarını indirmek, upgrade ise kurmak için kullanılmaktadır.
+update güncelleme dosyalarını kontrol etmek, upgrade ise kurmak için kullanılmaktadır.
 
 <br>
 
@@ -159,7 +159,13 @@ Program, Software'den OnlyOffice aratılarak kurulabilir. Tamamen ücretsizdir.
 
 <br>
 
-## 11. Topluluk Desteği
+## 11. VLC media player
+
+Bazı videolar mp4 formatında olsa dahi codec eksikliği yüzünden Fedora'nın varsayılan video oynatıcısı tarafından düzgün gösterilmeyebilir. Bunun için Software'den VLC media player kurulabilir.
+
+<br>
+
+## 12. Topluluk Desteği
 
 Bu belgedeki birçok konu Reddit topluluğu sayesinde hazırlandı. Sorun yaşadığınız her konuda [Fedora Subredditi](https://www.reddit.com/r/Fedora/)'ni kullanabilirsiniz. Çok sağlam bir community'si var.
 
