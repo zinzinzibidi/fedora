@@ -1,11 +1,18 @@
 # Fedora'ya Başlarken
 
-Bu md dosyası Fedora işletim sistemine yeni başlayanlara destek olmak amacıyla hazırlanmıştır. Fedora 35 ve sonrası için uygundur.
+Bu md dosyası Fedora işletim sistemine yeni başlayanlara destek olması amacıyla hazırlanmıştır. Fedora 35 ve sonrası için uygundur.
 
 <br>
 
-## 1. İşletim Sistemi Güncelleme
-Terminal'e aşağıdaki kodları yazıyoruz ve sırasıyla çalıştırıyoruz. (Kodun üzerine gelince sağ tarafta beliren simge ile tek tıkla kopyalayabilirsiniz.)
+## 1. Arama Özelliği 
+
+İşletim sisteminde kurulu herhangi bir yazılıma ve özelliğe ulaşmak için Super Key'e (Windows ya da Elma logolu klavye tuşuna) bir kez basıldıktan sonra bulunmak istenen uygulama adının yazılması yeterlidir. WinKey + Calc gibi... (Hesap makinesi bulunabilecektir.)
+
+<br>
+
+## 2. İşletim Sisteminin Güncellemesi ve Yükseltilmesi
+
+Fedora her 6 ayda bir yeni versiyon için güncellenmektedir. İşletim sistemini güncel tutmak için Terminal'e aşağıdaki kodları yazıyoruz ve sırasıyla çalıştırıyoruz. (Aşağıdaki kodun üzerine gelince sağ tarafta beliren kopyalama simgesini kullanabilirsiniz.)
 
 ```
 sudo dnf update --refresh -y
@@ -20,7 +27,7 @@ update güncelleme dosyalarını kontrol etmek, upgrade ise kurmak için kullan�
 
 <br>
 
-## 2. RPMFusion ve Flatpack Kurulumu
+## 3. RPMFusion ve Flatpack Kurulumu
 
 Fedora'nın yazılım kütüphanesi yetersizdir. Bu iki dağıtım Microsoft Edge, Visual Studio Code, PyCharm gibi tonlarca programı Software'e ekler. Bu şekilde kod yazmadan birçok yazılımı kurabiliriz.
 
@@ -41,7 +48,7 @@ yazıyoruz ve kurulumları gerçekleştiriyoruz.[^1][^2]
 
 <br>
 
-## 3. Wi-Fi Adapter Kurulumu
+## 4. Wi-Fi Adapter Kurulumu
 
 Kurulum sonrası Wi-Fi çalışmazsa aşağıdaki adımları uyguluyoruz.
 
@@ -66,7 +73,7 @@ yazıyoruz ve Wi-Fi Adapter'ı kuruyoruz.[^4]
 
 <br>
 
-## 4. Dock Sabitleme
+## 5. Dock Sabitleme
 <ol>
   <li>GNOME Shell Extentions eklentisi Edge'e ya da Firefox'a kuruyoruz.</li>
   <li>Dash to Dock eklentisini google'layıp kuruyoruz.</li>
@@ -75,7 +82,7 @@ yazıyoruz ve Wi-Fi Adapter'ı kuruyoruz.[^4]
 
 <br>
 
-## 5. Gnome Tweaks Kurulumu ve 1.75 Ekran Ölçeklendirme
+## 6. Gnome Tweaks Kurulumu ve 1.75 Ekran Ölçeklendirme
 
 4K çözünürlük kullanıyorsanız ekran ölçeklendirme gerekebilir.
 
@@ -95,7 +102,7 @@ Gnome Tweak ile koyu tema da kullanabilirsiniz.[^5]
 
 <br>
 
-## 6. Codec'ler
+## 7. Codec'ler
 Multimedya codec'leri için Terminal'e aşağıdaki kodları yazıyoruz.[^6]
 
 ```
@@ -111,43 +118,69 @@ sudo dnf group upgrade --with-optional Multimedia
 
 <br>
 
-## 7. Windows Fontları Yükleme
+## 8. Windows Fontları Yükleme
 Windows'tan gelen bazı dosyalar, özellikle Word belgeleri, fontlar yüzünden düzgün gösterilmeyebilir. Bu sebeple Windows fontlarını kullanmalıyız.
 
 Files'ın sol konsolunun en altında bulunan +Other Locations'a tıklıyoruz. Windows > Fonts klasörü içindeki fontları kopyalıyoruz. Fedora'da gizli dosyaları gösteriyoruz ve Home klasörünün içinde .Font adlı yeni bir klasör oluşturup kopyaladığımız fontları buraya yapıştırıyoruz.
 
 <br>
 
-## 8. Masaüstünde Nesne Kullanma
+## 9. Masaüstünde Nesne Kullanma
 
 Masaüstünde klasör, belge kullanabilmek için [Desktop Icons NG (DING) ](https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/) eklentisi kurulabilir. Bu eklentiyi kurabilmek için daha önce [GNOME Shell Extensions](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep?hl=tr)
 kurulmalıdır. (Firefox için [tıklayınız](https://addons.mozilla.org/tr/firefox/addon/gnome-shell-integration/).)
 
 <br>
 
-## 9. Harici Yazılım Kurulumu
+## 10. Harici Yazılım Kurulumu ve Kaldırılması
 
 Fedora'da harici yazılım kurmak için rpm uzantılı dosyalar kullanılmaktadır.
 
-Harici yazılımları kurmak için
+Paketleri (rpm'leri) kurmak için Terminal'de
 
 ```
-sudo dnf install yazilim_adi.rpm
+dnf install paket_adi
 ```
 
 Kaldırmak için
 
 ```
-sudo dnf remove yazilim_adi.rpm
+dnf remove paket_adi
 ```
 
-komutlarını kullanıyoruz.
+komutlarını kullanıyoruz. Kaldırma işlemlerinde .rpm uzantısını yazmıyoruz. Sadece paket adları yazılmalıdır.
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) rpm paketleme kurulumları son çare olarak kurulmalıdır. Bu paketleri kaldırmak kimi zaman çok zordur.
 
+Kaldırma işlemlerinde sorun çıkarsa aşağıdaki örneği inceleyebilirsiniz:
+
+Diyelim ki **softmaker-office-2021-1046.x86_64.rpm** paket yazılımını indirdik. Fakat Software'den kaldıramadık. Terminale başında sudo olmadan
+
+```
+dnf list --installed \*softmaker\*
+```
+ya da 
+
+```
+sudo dnf search \*softmaker\*
+```
+
+yazıyoruz. Buradaki \* \* softmaker'den kelimesinden önce ya da sonra karakter olsun ya da olmasın içinde softmaker geçen tüm paketleri listelemeye yarar. Komutu çalıştırdığımızda yanıt olarak
+
+```
+Installed Packages
+softmaker-office-2021.x86_64
+```
+dönecektir.
+
+```
+dnf remove -y softmaker-office-2021.x86_64
+```
+paket adını öğrendikten sonra komutlarıyla SoftMaker Office'i kaldırabiliriz.
+
 <br>
 
-## 10. OnlyOffice Kurulumu
+## 11. OnlyOffice Kurulumu
 
 <img src="https://zinzinzibidi.com/img/onlyoffice.png" alt="fedora scale" style="width:480px"/>
 
@@ -159,13 +192,19 @@ Program, Software'den OnlyOffice aratılarak kurulabilir. Tamamen ücretsizdir.
 
 <br>
 
-## 11. VLC media player
+## 12. VLC media player
 
 Bazı videolar mp4 formatında olsa dahi codec eksikliği yüzünden Fedora'nın varsayılan video oynatıcısı tarafından düzgün gösterilmeyebilir. Bunun için Software'den VLC media player kurulabilir.
 
 <br>
 
-## 12. Topluluk Desteği
+## 13. Ekran Görüntüsü Alma
+
+Tam ekran görüntüsü almak için PrintScreen, belirli bir alanın ekran görüntüsünü için CTRL + SHIFT + PrintScreen tuş kombinasyonunu kullanabilirsiniz. Görüntüler Files > Pictures içerisine kaydedilmektedir. Dilerseniz Photoshop'un alternatifi olan GIMP ile görseller üzerinde çalışabilirsiniz.
+
+<br>
+
+## 14. Topluluk Desteği
 
 Bu belgedeki birçok konu Reddit topluluğu sayesinde hazırlandı. Sorun yaşadığınız her konuda [Fedora Subredditi](https://www.reddit.com/r/Fedora/)'ni kullanabilirsiniz. Çok sağlam bir community'si var.
 
