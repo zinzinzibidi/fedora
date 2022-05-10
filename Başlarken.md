@@ -21,7 +21,7 @@ sudo dnf update --refresh -y
 sudo dnf upgrade --refresh -y
 ```
 
-Terminale kodları copy + paste yaparken CTRL + V'ye izin vermemekte. Bu sebeple CTRL + SHIFT + V yapabilirsiniz.
+Terminale kodları yapıştırırken CTRL + V'ye izin vermemektedir. Bu sebeple CTRL + SHIFT + V kullanılmalıdır. Ya da sağ tıkla yapıştır yapabilirsiniz.
 
 update güncelleme dosyalarını kontrol etmek, upgrade ise kurmak için kullanılmaktadır.
 
