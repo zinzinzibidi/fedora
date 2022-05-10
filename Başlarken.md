@@ -147,7 +147,19 @@ komutlarını kullanıyoruz.
 
 <br>
 
-## 10. Topluluk Desteği
+## 10. OnlyOffice Kurulumu
+
+<img src="https://zinzinzibidi.com/img/onlyoffice.png" alt="fedora scale" style="width:480px"/>
+
+Fedora ile varsayılan olarak LibreOffice yazılımı gelse de topluluğun en çok tercih ettiği ofis programı Microsoft 365'e benzemesi sebebiyle OnlyOffice'dir.
+
+Kurulum öncesi 2. adımda anlatılan RPMFusion ve Flatpack paketlerinin kurulması gerekmektedir.
+
+Program, Software'den OnlyOffice aratılarak kurulabilir. Tamamen ücretsizdir.
+
+<br>
+
+## 11. Topluluk Desteği
 
 Bu belgedeki birçok konu Reddit topluluğu sayesinde hazırlandı. Sorun yaşadığınız her konuda [Fedora Subredditi](https://www.reddit.com/r/Fedora/)'ni kullanabilirsiniz. Çok sağlam bir community'si var.
 
