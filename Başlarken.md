@@ -227,7 +227,17 @@ komutunu kullanmamız yeterlidir.
 
 <br>
 
-## 15. Topluluk Desteği
+## 15. Varsayılan Uygulamalar
+
+Varsayılan uygulamaları değiştirmek için Super Key yapıldıktan sonra "Default App" yazılabilir.
+
+<img src="https://zinzinzibidi.com/img/fedora-defaultapps.png" alt="fedora default apps" style="width:600px"/>
+
+Ya da doğrudan Settings > Default Applications yolu izlenebilir.
+
+<br>
+
+## 16. Topluluk Desteği
 
 Bu belgedeki birçok konu Reddit topluluğu sayesinde hazırlanmıştır. Sorun yaşadığınız her konuda [Fedora Subredditi](https://www.reddit.com/r/Fedora/)'ni kullanabilirsiniz. Çok sağlam bir community'si vardır.
 
