@@ -212,7 +212,22 @@ Belirli bir alanın ekran görüntüsünü alma, dikdörtgen ve ok şekileri vur
 
 <br>
 
-## 14. Topluluk Desteği
+## 14. Açılış Listesinde Eski Versiyonların Listeden Kaldırılması
+
+Bilgisayarı baştan başlattığımızda hangi işletim sistemini seçeceğimize dair bir liste görüntülenecektir.
+
+<img src="https://zinzinzibidi.com/img/fedora-oldversions.png" alt="fedora old versions" style="width:480px"/>
+
+Her yeni güncelleme ile bu liste uzamaya başlayacaktır. Bu sebeple GRUB açılış listesindeki eski versiyonları listeden kaldırmak için
+
+```
+sudo dnf remove --oldinstallonly
+```
+komutunu kullanmamız yeterlidir.
+
+<br>
+
+## 15. Topluluk Desteği
 
 Bu belgedeki birçok konu Reddit topluluğu sayesinde hazırlanmıştır. Sorun yaşadığınız her konuda [Fedora Subredditi](https://www.reddit.com/r/Fedora/)'ni kullanabilirsiniz. Çok sağlam bir community'si vardır.
 
