@@ -225,6 +225,8 @@ sudo dnf remove --oldinstallonly
 ```
 komutunu kullanmamız yeterlidir.
 
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Bu çözüm Fedora'nın eski versiyonlarını silecektir. Çökme durumlarında kurtarma sürümüne geçilememektedir. Bu yüzden dikkatli kullanılmalıdır.
+
 <br>
 
 ## 15. Varsayılan Uygulamalar
