@@ -154,7 +154,7 @@ dnf remove paket_adi
 
 komutlarını kullanıyoruz. Kaldırma işlemlerinde .rpm uzantısını yazılmamalıdır. Sadece paket adları yazılmalıdır.
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) rpm paket kurulumları son çare olarak kullanılmalıdır. Bu paketleri kaldırmak kimi zaman sorunlara yol açabilmektedir.
+🟥 rpm paket kurulumları son çare olarak kullanılmalıdır. Bu paketleri kaldırmak kimi zaman sorunlara yol açabilmektedir.
 
 Kaldırma işlemlerinde sorun çıkarsa aşağıdaki örnekteki yöntemi uygulayabilirsiniz:
 
@@ -225,7 +225,9 @@ sudo dnf remove --oldinstallonly
 ```
 komutunu kullanmamız yeterlidir.
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Bu çözüm Fedora'nın eski versiyonlarını silecektir. Çökme durumlarında kurtarma sürümüne geçilememektedir. Bu yüzden dikkatli kullanılmalıdır.
+🟥 Bu çözüm Fedora'nın eski versiyonlarını silecektir. Çökme durumlarında kurtarma sürümüne geçilememektedir. Bu yüzden dikkatli kullanılmalıdır.
+
+
 
 <br>
 
