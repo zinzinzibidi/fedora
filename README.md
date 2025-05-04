@@ -78,7 +78,7 @@ yazılır ve Wi-Fi Adapter kurulur.[^4]
   <li>Süper Key + Extensions ile Extensions açılır. Gerekli ayarlamalar yapılır.</li>
 </ol>
 
-<img src="https://zinzinzibidi.com/img/fedora-extensions.png" alt="fedora extensions" style="width:480px"/>
+<img src="https://zinzinzibidi.com/img/fedora-extensions.png" alt="fedora extensions" style="width:480"/>
 
 <br>
 
@@ -88,7 +88,7 @@ yazılır ve Wi-Fi Adapter kurulur.[^4]
 
 Software'den Gnome Tweaks'i kurulur.
 
-<img src="https://zinzinzibidi.com/img/tweaks-fonts.png" alt="fedora scale" style="width:600px"/>
+<img src="https://zinzinzibidi.com/img/tweaks-fonts.png" alt="fedora scale" style="width:600"/>
 
 Fonts > Scaling Factor'den ayarları 1.75, 1,80 yapabilirsiniz.
 
@@ -123,7 +123,7 @@ Windows'tan gelen bazı dosyalar, özellikle Word belgeleri, fontlar yüzünden 
 
 Files'ın sol konsolunda en altta yer alan +Other Locations'a tıklıyoruz. Windows > Fonts klasörü içindeki fontları kopyalıyoruz. Fedora'da gizli dosyaları gösteriyoruz ve Home klasörünün içinde .Font adlı yeni bir klasör oluşturup kopyaladığımız fontları buraya yapıştırıyoruz.
 
-<img src="https://zinzinzibidi.com/img/fedora-hidden-files.png" alt="fedora hidden files" style="width:600px"/>
+<img src="https://zinzinzibidi.com/img/fedora-hidden-files.png" alt="fedora hidden files" style="width:600"/>
 
 Gizli dosyaları görebilmek için Home klasöründe Show Hidden Files seçeneği seçilmelidir.
 
@@ -186,7 +186,7 @@ paket adını öğrendikten sonra SoftMaker Office'i yukarıdaki komutlar yardı
 
 ## 11. OnlyOffice Kurulumu
 
-<img src="https://zinzinzibidi.com/img/onlyoffice.png" alt="fedora scale" style="width:480px"/>
+<img src="https://zinzinzibidi.com/img/onlyoffice.png" alt="fedora scale" style="width:480"/>
 
 Fedora ile varsayılan olarak LibreOffice yazılımı gelse de topluluğun en çok tercih ettiği ofis programı Microsoft 365'e benzemesi sebebiyle OnlyOffice'dir.
 
@@ -206,7 +206,7 @@ Bazı videolar mp4 formatında olsa dahi codec eksikliği yüzünden Fedora'nın
 
 Tam ekran görüntüsü almak için PrintScreen, belirli bir alanın ekran görüntüsünü için SHIFT + PrintScreen tuş kombinasyonunu kullanabilirsiniz. Görüntüler Files > Pictures içerisine kaydedilmektedir. Dilerseniz Photoshop'un alternatifi olan GIMP ile görseller üzerinde çalışabilirsiniz.
 
-<img src="https://zinzinzibidi.com/img/fedora-shutter.png" alt="fedora shutter" style="width:480px"/>
+<img src="https://zinzinzibidi.com/img/fedora-shutter.png" alt="fedora shutter" style="width:480"/>
 
 Belirli bir alanın ekran görüntüsünü alma, dikdörtgen ve ok şekileri vurgu yapma gibi özellikler için Shutter yazılımı kullanılabilir.
 
@@ -216,7 +216,7 @@ Belirli bir alanın ekran görüntüsünü alma, dikdörtgen ve ok şekileri vur
 
 Bilgisayarı baştan başlattığımızda hangi işletim sistemini seçeceğimize dair bir liste görüntülenecektir.
 
-<img src="https://zinzinzibidi.com/img/fedora-oldversions.png" alt="fedora old versions" style="width:480px"/>
+<img src="https://zinzinzibidi.com/img/fedora-oldversions.png" alt="fedora old versions" style="width:480"/>
 
 Her yeni güncelleme ile bu liste uzamaya başlayacaktır. Bu sebeple GRUB açılış listesindeki eski versiyonları listeden kaldırmak için
 
@@ -235,7 +235,7 @@ komutunu kullanmamız yeterlidir.
 
 Varsayılan uygulamaları değiştirmek için Super Key yapıldıktan sonra "Default App" yazılabilir.
 
-<img src="https://zinzinzibidi.com/img/fedora-defaultapps.png" alt="fedora default apps" style="width:600px"/>
+<img src="https://zinzinzibidi.com/img/fedora-defaultapps.png" alt="fedora default apps" style="width:600"/>
 
 Ya da doğrudan Settings > Default Applications yolu izlenebilir.
 
